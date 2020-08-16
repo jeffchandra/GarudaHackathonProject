@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">DIM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="interests_preferences">
+        <item>Accessories</item>
+        <item>Animal care</item>
+        <item>Art</item>
+        <item>Automotive</item>
+        <item>Beauty</item>
+        <item>Body care</item>
+        <item>Book</item>
+        <item>Computer and Laptop</item>
+        <item>Crafts and Carpentry</item>
+        <item>DIY</item>
+        <item>Electronic</item>
+        <item>Entertainment</item>
+        <item>Fashion</item>
+        <item>Film and Music</item>
+        <item>Fitness</item>
+        <item>Food and Beverages</item>
+        <item>Gaming</item>
+        <item>Groceries</item>
+        <item>Health</item>
+        <item>Home Interior and Household</item>
+        <item>Kitchen</item>
+        <item>Medical</item>
+        <item>Mom and Baby</item>
+        <item>Office and Stationary</item>
+        <item>Party supplies and Crafts</item>
+        <item>Phone and tablet</item>
+        <item>Photography</item>
+        <item>Properties</item>
+        <item>Safety</item>
+        <item>Services</item>
+        <item>Sports</item>
+        <item>Tableware</item>
+        <item>Technology</item>
+        <item>Tools</item>
+        <item>Tour and Travel</item>
+        <item>Toys and Hobbies</item>
+        <item>Wedding</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="targets_preferences">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Children</item>
+        <item>Teens</item>
+        <item>Young Professionals</item>
+        <item>Adults</item>
+        <item>Seniors</item>
+        <item>Parents</item>
+        <item>Students</item>
+        <item>Business Owner</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="locations_preferences">
+        <item>Bali</item>
+        <item>Bangka Belitung</item>
+        <item>Banten</item>
+        <item>Bengkulu</item>
+        <item>DI Yogyakarta</item>
+        <item>DKI Jakarta</item>
+        <item>Gorontalo</item>
+        <item>Jambi</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Kepulauan Riau</item>
+        <item>Lampung</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Nanggroe Aceh Darussalam</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Papua</item>
+        <item>Papua Barat</item>
+        <item>Riau</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Selatan</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Sumatera Selatan</item>
+        <item>Sumatera Utara</item>
+    </string-array>
+</resources>

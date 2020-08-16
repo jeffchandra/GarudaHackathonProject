@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/black"
+    tools:context=".PreferencesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/register"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/socialMediaTag"
+                android:text="Enter username for available social media"
+                android:textColor="@color/colorBlack"/>
+
+            <EditText
+                android:id="@+id/instagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Instagram"
+                android:padding="10dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/tiktok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Tiktok"
+                android:padding="10dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/youtube"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittext_background"
+                android:hint="Youtube"
+                android:padding="10dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/preferencesTag"
+                android:text="Enter preferences"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/interestTag"
+                android:text="Interests/Products:"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorBlack"/>
+
+            <CheckBox
+                android:id="@+id/interest0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accessories"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Animal Care"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Automotive"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beauty"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Body Care"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer and Laptop"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Craft and Carpentry"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIY"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electronic"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entertainment"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fashion"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Film and Music"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fitness"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food and Beverages"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaming"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Groceries"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Health"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home Interior and Household"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kitchen"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medical"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mom and Baby"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Office and Stationary"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Party Supplies"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone and Tablet"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Photography"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Properties"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Safety"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Services"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sports"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tableware"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Technology"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tools"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tour and Travel"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toys and Hobbies"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wedding"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/interest37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/targetTag"
+                android:text="Viewers/Target Market:"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorBlack"/>
+
+            <CheckBox
+                android:id="@+id/target0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/target1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/target2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Children"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/target3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teens"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/target4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Young Professionals"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/target5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adults"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/target6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seniors"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/target7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parents"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/target8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Students"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/target9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Business Owner"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/target10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/locationTag"
+                android:text="Location:"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bali"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangka Belitung"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Banten"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bengkulu"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DI Yogyakarta"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DKI Jakarta"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gorontalo"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jambi"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jawa Barat"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jawa Tengah"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jawa Timur"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalimantan Barat"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalimantan Selatan"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalimantan Tengah"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalimantan Timur"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalimantan Utara"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kepulauan Riau"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lampung"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maluku"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maluku Utara"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nanggroe Aceh Darussalam"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nusa Tenggara Barat"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nusa Tenggara Timur"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Papua"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Papua Barat"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Riau"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulawesi Barat"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulawesi Selatan"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulawesi Tengah"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulawesi Tenggara"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulawesi Utara"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumatera Barat"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumatera Selatan"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <CheckBox
+                android:id="@+id/location33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumatera Utara"
+                android:checked="false"
+                android:textColor="@color/colorBlack"
+                android:buttonTint="@color/colorBlack" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="Register"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_background"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp" />
+
+</RelativeLayout>
